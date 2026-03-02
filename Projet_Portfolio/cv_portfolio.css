@@ -1,0 +1,40 @@
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cv-container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.droite {
+    width: 30%;
+    padding: 20px;
+}
+
+.gauche {
+    width: 70%;
+    padding: 20px;
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* .info h1 , .info h3 ,.info p {
+    margin: 0;
+} */
+
+
